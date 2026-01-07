@@ -1,0 +1,34 @@
+# Foundry files
+contracts/
+script/
+foundry.toml
+broadcast/
+cache/
+out/
+lib/
+
+# Deployment scripts
+*.js
+!next.config.mjs
+!postcss.config.mjs
+
+# Documentation
+*.md
+!README.md
+
+# Test files
+test-*.js
+verify-*.js
+find-*.js
+calculate-*.js
+fix-*.js
+get-*.js
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Git
+.git
+.gitignore
