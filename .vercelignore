@@ -1,11 +1,11 @@
-# Foundry files
+# Foundry files (Solidity contracts and deployment)
 contracts/
 script/
 foundry.toml
 broadcast/
 cache/
 out/
-lib/
+# Note: lib/ is NOT ignored - it contains TypeScript code needed by Next.js
 
 # Deployment scripts
 *.js
